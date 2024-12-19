@@ -38,7 +38,12 @@
                                         <Label style="-fx-font-size: 14px;" text="Input Text:" />
                                     </VBox>
                                     <!-- TextArea for input -->
-                                    <TextArea fx:id="textInputArea" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" nodeOrientation="LEFT_TO_RIGHT" prefHeight="200.0" prefWidth="775.0" promptText="Enter your text here..." style="-fx-background-color: transparent; -fx-text-fill: black; -fx-font-size: 14px;" wrapText="true" />
+
+                                        <TextArea fx:id="textInputArea" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" nodeOrientation="LEFT_TO_RIGHT" prefHeight="200.0" prefWidth="775.0" promptText="Enter your text here..." style="-fx-background-color: transparent; -fx-text-fill: black; -fx-font-size: 14px;" wrapText="true" />
+
+                                    <HBox alignment="CENTER_RIGHT" spacing="10" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" nodeOrientation="LEFT_TO_RIGHT" prefWidth="775.0" >
+                                        <Button text="Import from file" style="-fx-align:right"/>
+                                    </HBox>
 
                                     <VBox spacing="10">
                                         <Label style="-fx-font-size: 14px;" text="Output:" />
