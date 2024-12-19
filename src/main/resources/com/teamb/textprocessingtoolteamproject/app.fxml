@@ -51,7 +51,7 @@
                                     <HBox alignment="CENTER_RIGHT" spacing="10" maxHeight="-Infinity"
                                           maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
                                           nodeOrientation="LEFT_TO_RIGHT" prefWidth="775.0">
-                                        <Button text="Import from file" style="-fx-align:right"/>
+                                        <Button text="Import from file" style="-fx-align:right" onAction="#importFile"/>
                                     </HBox>
 
                                     <VBox spacing="10">
