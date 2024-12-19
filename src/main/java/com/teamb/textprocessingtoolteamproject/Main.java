@@ -17,6 +17,8 @@ public class Main extends Application {
         stage.setWidth(950);
         stage.setScene(scene);
         stage.show();
+
+        //ctrl alt L
     }
 
     public static void main(String[] args) {
